@@ -112,10 +112,6 @@ nav a:hover {
 	border-bottom: solid 2px;
 }
 
-img {
-	width: 100%;
-	height: auto;
-}
 
 /* container with a border */
 .container-with-bg {
@@ -137,6 +133,14 @@ img {
 	border-color: #CCC;
 	margin-right: 5rem;
 	padding-bottom: 3rem;
+}
+
+.container-grey-bg {
+	border: solid 1px;
+	border-color: #CCC;
+	margin-right: 5rem;
+	padding-bottom: 3rem;
+	background-color: #eee;
 }
 
 /* heading change to inline display and give more margin */
@@ -197,27 +201,30 @@ img {
 	border-bottom: solid 2px;
 }
 
-/* product containers */
-.products {
-	background-color: #F6F6F6;
+/* product listing containers */
+.product-listing {
+	background-color: #fff;
+	text-align: center;
+	width: 20rem;
 	padding: 3rem;
-	opacity: 1;
-	-webkit-transition: opacity 0.3s;
-	-moz-transition: opacity 0.3s;
-	-ms-transition: opacity 0.3s;
-	-o-transition: opacity 0.3s;
-	transition: opacity 0.3s;
-	margin-bottom: 5rem;
-	color:black;
+	margin: 4rem;
 }
 
-/* white overlay on the whole product containers translucent when hovered over */
-.products:hover {
-	opacity: 0.4;
+/*title of the product*/
+.product-listing h3 {
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
-/* product descriptions in the product containers */
-.products p {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+.product-listing p {
+	color: #666;
+}
+
+
+/*makes the button full-width*/
+.product-listing .button-default {
+	padding-left: 0rem;
+	padding-right: 0rem;
+	width: 100%;
 }
