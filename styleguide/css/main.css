@@ -81,13 +81,30 @@ input {
 }
 
 nav {
-	float: right;
+	
+	padding-top: 2rem;
 }
 
 nav a {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
 	display: inline-block;
+	padding-bottom: 0.2rem;
+	margin-right: 3rem;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	transition: all 0.1s;
 	text-align: right;
-	margin: 2rem;
+	color: #DDD;
+	float: right;
+}
+
+nav a:hover {
+	border-bottom: solid 2px;
 }
 
 img {
@@ -97,12 +114,17 @@ img {
 
 /* container with a border */
 .container-with-bg {
-	padding-top: 3rem;
 	padding-bottom: 3rem;
 	text-align: center;
 	width: auto;
 	background-image: url('../img/re_background.png');
 	background-size: cover;
+	margin-right: 5rem;
+}
+
+.container-wo-bg .container-with-bg {
+	padding-top: 3rem;
+	margin-right: 0;
 }
 
 .container-wo-bg {
@@ -160,30 +182,9 @@ img {
 	border-color: #555555;
 }
 
-/* links on navigation */
-.nav-link {
-	font-family: "Montserrat", sans-serif;
-	font-size: 1.1rem;
-	letter-spacing: 0.3rem;
-	display: inline-block;
-	padding-bottom: 0.3rem;
-	color: red;
-	margin-right: 3rem;
-	-webkit-transition: all 0.1s;
-	-moz-transition: all 0.1s;
-	-ms-transition: all 0.1s;
-	-o-transition: all 0.1s;
-	transition: all 0.1s;
-}
-
-/* when you hover on links on navigation */
-.nav-link:hover {
-	border-bottom: solid 3px;
-}
-
 /* in-text links */
 .text-link {
-	color: red;
+	color: #FF3300;
 }
 
 /* when you hover on in-text links */
