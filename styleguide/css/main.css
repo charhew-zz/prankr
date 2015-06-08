@@ -1,0 +1,230 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header {
+	background-image: url("../img/bg.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+	height: 40rem;
+	text-align: center;
+}
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	margin: 0;
+}
+
+/* section tag in section tags */
+section section {
+	margin-left: 5rem;
+}
+
+h1 {
+	margin-left: -5rem;
+	color: red;
+	letter-spacing: 0.4rem;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.8rem;
+	display: inline-block;
+	margin-top: 5rem;
+	padding-left: 5rem;
+	padding-bottom: 0.3rem;
+	border-bottom: solid 5px;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	letter-spacing: 0.1rem;
+	margin-top: 5rem;
+	margin-bottom: 1.5rem;
+}
+
+h3 {
+	font-size: 1.3rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+}
+
+p {
+	line-height: 150%;
+}
+
+section code {
+	color: gray;
+    font-family: Courier;
+    display:block;
+}
+
+a {
+	text-decoration: none;
+}
+
+label {
+	margin-right: 1rem;
+}
+
+input {
+	padding: 0.2rem;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	display: inline-block;
+	text-align: right;
+	margin: 2rem;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* container with a border */
+.container {
+	border: solid 1px;
+	border-color: #CCC;
+	margin-right: 5rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	width: auto;
+}
+
+/* heading change to inline display and give more margin */
+.heading {
+	display: inline;
+	margin-left: 0;
+}
+
+/* subheading needs another 5 rem of margin */
+.subheading {
+	margin-left: 5rem;
+	margin-bottom: 3rem;
+}
+
+/* third heading needs another 5 rem of margin */
+.third-heading {
+	margin-left: 5rem;
+}
+
+/* submit button for forms */
+.submit-button {
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: red;
+	letter-spacing: 0.2rem;
+	padding: 1rem 2rem;
+	background-color: transparent;
+	border: solid 4px;
+	display: inline-block;
+	margin-top:2rem;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* when hovering on submit button for forms */
+.submit-button:hover {
+	color:white;
+	background-color: red;
+	letter-spacing: 0.2rem;
+	padding: 1rem 2rem;
+	border-color: red;
+}
+
+/* reset button for forms */
+.reset-button {
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: #555555;
+	letter-spacing: 0.2rem;
+	padding: 1rem 2rem;
+	background-color: transparent;
+	border: solid 4px;
+	display: inline-block;
+	margin-top:2rem;
+	margin-right: 5rem;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* when hovering on reset button for forms */
+.reset-button:hover {
+	color:white;
+	background-color: #555555;
+	letter-spacing: 0.2rem;
+	padding: 1rem 2rem;
+	border-color: #555555;
+	margin-top: 2rem;
+}
+
+/* links on navigation */
+.nav-link {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.1rem;
+	letter-spacing: 0.3rem;
+	display: inline-block;
+	padding-bottom: 0.3rem;
+	color: red;
+	margin-right: 3rem;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	transition: all 0.1s;
+}
+
+/* when you hover on links on navigation */
+.nav-link:hover {
+	border-bottom: solid 3px;
+}
+
+/* in-text links */
+.text-link {
+	color: red;
+}
+
+/* when you hover on in-text links */
+.text-link:hover {
+	border-bottom: solid 2px;
+}
+
+/* product containers */
+.products {
+	background-color: #F6F6F6;
+	padding: 3rem;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	margin-bottom: 5rem;
+	color:black;
+}
+
+/* white overlay on the whole product containers translucent when hovered over */
+.products:hover {
+	opacity: 0.4;
+}
+
+/* product descriptions in the product containers */
+.products p {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
