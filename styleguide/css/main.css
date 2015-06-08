@@ -78,12 +78,22 @@ a {
 }
 
 label {
+	display: block;
 	margin-right: 1rem;
+	margin-bottom: 0.8rem;
+	color: #777;
 }
 
 
 input {
-	padding: 0.2rem;
+	display: block;
+	width: 20rem;
+	text-align: left;
+	font-size: 1.3rem;
+	padding: 0.8rem;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	color: #666;
 }
 
 nav {
