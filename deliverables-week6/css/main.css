@@ -266,3 +266,9 @@ nav a:hover {
 		order: 2;
 	}
 }
+
+@media(max-width: 25em) {
+	input {
+		width: 100%;
+	}
+}
