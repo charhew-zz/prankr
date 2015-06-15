@@ -142,14 +142,12 @@ nav a:hover {
 .container-wo-bg {
 	border: solid 1px;
 	border-color: #CCC;
-	margin-right: 5rem;
 	padding-bottom: 3rem;
 }
 
 .container-grey-bg {
 	border: solid 1px;
 	border-color: #CCC;
-	margin-right: 5rem;
 	padding-bottom: 3rem;
 	background-color: #eee;
 }
@@ -270,5 +268,23 @@ nav a:hover {
 @media(max-width: 25em) {
 	input {
 		width: 100%;
+	}
+}
+
+@media(max-width: 33.75em) {
+	h1 {
+		font-size: 1.6rem;
+	}
+
+	h2 {
+		font-size: 1.25rem;
+	}
+
+	h4 {
+		font-size: 0.8rem;
+	}
+
+	p {
+		font-size: 0.8rem;
 	}
 }
