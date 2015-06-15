@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -274,6 +278,8 @@ nav a:hover {
 @media(max-width: 33.75em) {
 	h1 {
 		font-size: 1.6rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
 	}
 
 	h2 {
