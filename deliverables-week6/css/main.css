@@ -113,6 +113,7 @@ nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	display: block;
 }
 
 nav a {
@@ -282,11 +283,38 @@ nav a:hover {
 	nav {
 		background: #111;
 		height: 3rem;
-		padding: 0 2rem;
+		display: block;
+		padding: 0;
 	}
 
 	nav ul {
 		display: none;
+		margin: 0;
+		width: 100%;
+		padding: 0;
+	}
+
+	nav ul li {
+		display: block;
+		float: none;
+		clear: both;
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav ul li a {
+		text-align: center;
+		display: block;
+		margin: 0;
+		float: none;
+		background: #111;
+		padding: 1rem 0;
+		width: 100%;
+	}
+
+	nav ul li a:hover {
+		border: none;
 	}
 
 	.menu-icon {
@@ -294,6 +322,7 @@ nav a:hover {
 		float: left;
 		margin: 0;
 		margin-top: .75rem;
+		margin-left: 1rem;
 		font-size: .8rem;
 		font-weight: 400;
 		text-transform: uppercase;
