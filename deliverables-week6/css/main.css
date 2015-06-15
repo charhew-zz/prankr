@@ -4,8 +4,6 @@
 	box-sizing: border-box;
 }
 
-/*veronica*/
-
 header {
 	background-image: url("../img/bg-style-guide.png");
     -webkit-background-size: cover;
@@ -26,6 +24,7 @@ body {
 /* section tag in section tags */
 section section {
 	margin-left: 5rem;
+	margin-right: 5rem;
 }
 
 /*heading in the banners*/
@@ -239,4 +238,18 @@ nav a:hover {
 	padding-left: 0rem;
 	padding-right: 0rem;
 	width: 100%;
+}
+
+
+@media(max-width: 32.88em) {
+	section section {
+		margin: 2rem;
+	}
+
+	.button-default,
+	.button-reset {
+		width: 100%;
+		text-align: center;
+	}
+
 }
