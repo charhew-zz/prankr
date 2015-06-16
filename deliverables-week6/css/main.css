@@ -9,7 +9,7 @@
 }
 
 header {
-	background-image: url("../img/bg-style-guide.png");
+	background-image: url("../img/bg-square-texture.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
@@ -285,6 +285,8 @@ nav a:hover {
 /* container for all the products on home page*/
 .product-container-home {
 	background: #EEE;
+	margin-right: 0;
+	margin-left: 0;
 }
 
 /* product listing containers */
