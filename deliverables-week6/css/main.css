@@ -20,6 +20,20 @@ header {
 	text-align: center;
 }
 
+header img {
+	width: 8%;
+	margin-top: 10rem;
+	height: auto;
+}
+
+.header-large {
+	height: 40rem;
+}
+
+.header-small {
+	height: 20rem;
+}
+
 body {
 	font-family: "Open Sans", sans-serif;
 	margin: 0;
@@ -38,15 +52,17 @@ h1 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 2rem;
 	text-transform: uppercase;
+	text-align: center;
+	display: block;
 }
 
 h2 {
 	font-size: 1.9rem;
 	letter-spacing: .05rem;
 	font-weight: 400;
-	margin-top: 5rem;
-	margin-bottom: 1.5rem;
-	text-align: left;
+	margin-top: 7rem;
+	margin-bottom: 2rem;
+	text-align: center;
 }
 
 .container-wo-bg h2 {
@@ -69,7 +85,22 @@ h4 {
 }
 
 p {
-	line-height: 150%;
+	line-height: 160%;
+	margin: 0 15em;
+	color: #222;
+	letter-spacing: 0.05rem;
+	font-weight: 300;
+}
+
+/* paragraphs in the FAQ */
+.faq-para {
+	margin-bottom: 3rem;
+}
+
+em {
+	color: #FF3300;
+	font-style: normal;
+	font-weight: 600;
 }
 
 section code {
@@ -101,8 +132,32 @@ input {
 	color: #666;
 }
 
+footer {
+	background: url("../img/bg-square-texture.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+}
+
+footer p {
+	margin-top: 7rem;
+	color: #EEE;
+	text-align: center;
+	padding: 4rem;
+	font-size: 0.9rem;
+}
+
 nav {
 	padding-top: 2rem;
+}
+
+nav::after {
+	content: "";
+	clear:both;
+	display: block;
 }
 
 .menu-icon {
@@ -172,12 +227,6 @@ nav a:hover {
 	margin-left: 0;
 }
 
-/*flexbox that holds the buttons. generally used for when 2 buttons are side by side*/
-.button-container {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 /* submit button for forms */
 .button-default,
 .button-reset {
@@ -197,19 +246,16 @@ nav a:hover {
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-	flex-grow: 1;
 }
 
 .button-default {
 	color: #FF3300;
 	border-color: #FF3300;
-	order: 2;
 }
 
 .button-reset {
 	color: #555;
 	border-color: #555;
-	order: 1;
 }
 
 /* when hovering on submit button for forms */
@@ -233,16 +279,21 @@ nav a:hover {
 
 /* when you hover on in-text links */
 .text-link:hover {
-	border-bottom: solid 2px;
+	border-bottom: solid 1.5px;
+}
+
+/* container for all the products on home page*/
+.product-container-home {
+	background: #EEE;
 }
 
 /* product listing containers */
 .product-listing {
 	background-color: #fff;
 	text-align: center;
-	width: 20rem;
 	padding: 3rem;
 	margin: 4rem;
+	width: 24%;
 }
 
 /*title of the product*/
@@ -254,6 +305,7 @@ nav a:hover {
 
 .product-listing p {
 	color: #666;
+	margin: auto;
 }
 
 
@@ -262,101 +314,4 @@ nav a:hover {
 	padding-left: 0rem;
 	padding-right: 0rem;
 	width: 100%;
-}
-
-
-@media(max-width: 32.88em) {
-	section section {
-		margin: 2rem;
-	}
-
-	.button-default {
-		order: 1;
-	}
-
-	.button-reset {
-		order: 2;
-	}
-}
-
-@media(max-width: 38.25em) {
-	nav {
-		background: #111;
-		height: 3rem;
-		display: block;
-		padding: 0;
-	}
-
-	nav ul {
-		display: none;
-		margin: 0;
-		width: 100%;
-		padding: 0;
-	}
-
-	nav ul li {
-		display: block;
-		float: none;
-		clear: both;
-		margin: 0;
-		text-align: center;
-		width: 100%;
-	}
-
-	nav ul li a {
-		text-align: center;
-		display: block;
-		margin: 0;
-		float: none;
-		background: #111;
-		padding: 1rem 0;
-		width: 100%;
-	}
-
-	nav ul li a:hover {
-		border: none;
-	}
-
-	.menu-icon {
-		display: block;
-		float: left;
-		margin: 0;
-		margin-top: .75rem;
-		margin-left: 1rem;
-		font-size: .8rem;
-		font-weight: 400;
-		text-transform: uppercase;
-		border: 1px solid #fff;
-		padding: .2rem;
-	}
-
-	.menu-icon:hover {
-		border: 1px solid #fff;
-	}
-}
-
-@media(max-width: 33.75em) {
-	h1 {
-		font-size: 1.6rem;
-		margin-left: 1rem;
-		margin-right: 1rem;
-	}
-
-	h2 {
-		font-size: 1.25rem;
-	}
-
-	h4 {
-		font-size: 0.8rem;
-	}
-
-	p {
-		font-size: 0.8rem;
-	}
-}
-
-@media(max-width: 25em) {
-	input {
-		width: 100%;
-	}
 }
