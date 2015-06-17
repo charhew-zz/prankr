@@ -1,5 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+/*heading in the banners*/
+h1 {
+	color: #FFF;
+	letter-spacing: 0.2rem;
+	font-family: "Montserrat", sans-serif;
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+h2 {
+	font-family: "Source Sans Pro";
+	display: inline-block;
+	border-bottom: solid 4.5px #000;
+	font-size: 1.9rem;
+	letter-spacing: .1rem;
+	font-weight: 400;
+	margin-top: 7rem;
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+p {
+	line-height: 160%;
+	color: #222;
+	letter-spacing: 0.05rem;
+	font-weight: 300;
+}
+
+em {
+	color: #FF3300;
+	font-style: normal;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	background: url("../img/bg-square-texture.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
 }
