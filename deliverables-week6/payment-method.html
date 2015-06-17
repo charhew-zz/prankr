@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Shop Pranks</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/flexbox.css">
+	</head>
+
+	<body>
+
+		<header class="header-tiny">
+			<nav>
+				<a class="menu-icon">Menu</a>
+				<ul class="menu">
+					<li><a href="#">about</a></li>
+					<li><a href="#">feedback</a></li>
+					<li><a href="#">contact</a></li>
+					<li><a href="#">shop</a></li>
+				</ul>
+			</nav>
+
+
+			<h1>Payment Method</h1>
+
+		</header>
+
+		<div class="flex-container">
+			<section class="aside">
+				<div class="centered-content">
+					<article class="product-summary">
+						<h2>Apocalypse</h2>
+						<a href="product-apocalypse.html#order-form" class="text-link">Edit</a>
+					</article>
+
+					<article class="product-summary">
+						<p><strong>Target</strong></p>
+						<p>Charlene Hew</p>
+					</article>
+					<article class="product-summary">
+						<p><strong>Target Address</strong></p>
+						<p>1234 Surrey Street<br>
+						Surrey, BC</p>
+					</article>
+
+					<article class="total-cost">
+						<p><strong>Total Cost</strong></p>
+						<p>$50.00</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="container-grey-bg">
+				<h2>Your Information</h2>
+				<div class="centered-content">
+					<form id="order-form-target-info" method="post" action="confirmation.html">
+						<div class="long-input">
+							<label for="target-name">Your Name</label> 
+							<input type="text" id="client-name">
+						</div>
+						<div class="short-input">
+							<label for="target-name">Your Email</label> 
+							<input type="text" id="client-email">
+						</div>
+						<div class="short-input">
+							<label for="target-name">Your Phone Number</label> 
+							<input type="text" id="client-phone">
+						</div>
+					</form>
+				</div>
+
+				<h2>Payment Method</h2>
+				<div class="centered-content">
+					<form id="order-form-target-info" method="post" action="confirmation.html">
+						<div class="long-input">
+							<label for="target-name">Name on Card</label> 
+							<input type="text" id="target-name">
+						</div>
+						<div class="long-input">
+							<label for="target-name">Card Number</label> 
+							<input type="text" id="target-address">
+						</div>
+						<div class="short-input">
+							<label for="target-name">Expiry</label> 
+							<input type="text" id="target-city">
+						</div>	
+						<div class="long-input">
+							<input class="button-default" type="submit" value="Submit">
+						</div>		
+					</form>
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			<p>copyright © <em>re:</em> 2015</p>
+		</footer>
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+/*top banners in the product details pages*/
+.product-details-banner {
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 20rem;
+	margin: 0;
+}
+
+
+/*page-specific banner properties; each one has a different background*/
+.product-details-banner.apocalypse {
+	background-image: url('../img/bg-apocalypse.png');
+}
