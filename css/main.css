@@ -27,8 +27,12 @@ header {
 }
 
 /* header for just the home page */
-header.home {
+header.large {
 	height: 40rem;
+}
+
+header.medium{
+	height: 30rem;
 }
 
 header img {
@@ -37,6 +41,39 @@ header img {
 
 	min-width: 5rem;
 	margin-bottom: 2rem;
+	margin-top: 6rem;
+}
+
+nav {
+	height: 6rem;
+	padding-top: 2rem;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+nav a {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+	padding-bottom: 0.2rem;
+	margin-right: 3rem;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	transition: all 0.1s;
+	color: #DDD;
+	float: right;
+}
+
+nav a:hover {
+	border-bottom: solid 2px;
 }
 
 /*heading in the banners*/
@@ -48,7 +85,7 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
-	margin-bottom: 2rem;
+	margin-bottom: 4rem;
 }
 
 h2 {
@@ -63,6 +100,10 @@ h2 {
 	text-align: center;
 }
 
+h2.wo-bottom-margin {
+	margin-bottom: 1rem;
+}
+
 p {
 	line-height: 160%;
 	color: #222;
@@ -71,13 +112,23 @@ p {
 }
 
 em {
-	color: #FF3300;
+	color: #FF0800;
 	font-style: normal;
 	font-weight: 600;
 }
 
 a {
 	text-decoration: none;
+}
+
+/* in-text links */
+.text-link {
+	color: #FF0800;
+}
+
+/* when you hover on in-text links */
+.text-link:hover {
+	border-bottom: solid 1.5px;
 }
 
 footer {
@@ -112,6 +163,7 @@ button styling
 	border: solid 2px;
 	display: inline-block;
 	text-align: center;
+	text-transform: lowercase;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -141,6 +193,10 @@ button styling
 	background-color: #555555;
 }
 
+.button-edit {
+	text-transform: uppercase;
+}
+
 /*product listing*/
 .product-listing {
 	text-align: center;
@@ -157,6 +213,27 @@ button styling
 }
 
 /*each article in the faq*/
-.faq article {
+.faq article,
+.reviews article {
 	margin-bottom: 2rem;
+}
+
+/* form styling */
+label {
+	display: block;
+	margin-bottom: 0.8rem;
+	color: #777;
+}
+
+
+input[type="text"] {
+	display: block;
+	font-size: 1.3rem;
+	padding: 0.8rem;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	color: #666;
+	margin-bottom: 3rem;
+	border: solid 1px #DDD;
+	width: 100%;
 }

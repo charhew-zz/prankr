@@ -27,65 +27,70 @@
 
 		</header>
 
-		<div class="grid">
-			<div class="col-4of12">
-				<aside>
-					<h2>The Target</h2>
-					<a href="">Edit</a>
-				</aside>
+		<div class="container-centered">
+			<div class="grid">
+				<div class="col-4of12">
+					<aside>
+						<h2 class="wo-bottom-margin">The Target</h2>
+						<div class="grid">
+							<a class="text-link button-edit" href="">Edit</a>
+						</div>
+					</aside>
+				</div>
+				<!-- end col -->
+
+				<div class="col-8of12">
+					<!-- section for client personal information -->
+					<section>
+						<h2>Your Info</h2>
+
+						<form id="order-form-two" class="grid">
+							<div class="col-12of12">
+								<label for="client-name">Your Name</label> 
+								<input type="text" id="client-name">
+							</div>
+							<div class="col-6of12">
+								<label for="client-email">Your Email</label> 
+								<input type="text" id="client-email">
+							</div>
+							<div class="col-6of12">
+								<label for="client-phone">Your Phone Number</label> 
+								<input type="text" id="client-phone">
+							</div>
+						</form>
+					</section>
+
+					<!-- section for client payment method  -->
+					<section>
+						<h2>Payment Method</h2>
+						<form id="order-form-three" method="post" action="confirmation.html" class="grid">
+							<div class="col-12of12">
+								<label for="card-name">Name on Card</label> 
+								<input type="text" id="card-name">
+							</div>
+							<div class="col-6of12">
+								<label for="card-number">Card Number</label> 
+								<input type="text" id="card-number">
+							</div>
+							<div class="col-6of12">
+								<label for="cvv">CVV</label> 
+								<input type="text" id="cvv">
+							</div>
+							<div class="col-6of12">
+								<label for="expiry">Expiry</label> 
+								<input type="text" id="expiry">
+							</div>
+							<div class="col-12of12">
+								<input class="button-default" type="submit" value="Submit">
+							</div>
+						</form>
+					</section>
+				</div>
+				<!-- end col -->
 			</div>
-			<!-- end col -->
-
-			<div class="col-8of12">
-				<!-- section for client personal information -->
-				<section>
-					<h2>Your Info</h2>
-
-					<form id="order-form-two" class="grid">
-						<div class="col-12of12">
-							<label for="client-name">Your Name</label> 
-							<input type="text" id="client-name">
-						</div>
-						<div class="col-6of12">
-							<label for="client-email">Your Email</label> 
-							<input type="text" id="client-email">
-						</div>
-						<div class="col-6of12">
-							<label for="client-phone">Your Phone Number</label> 
-							<input type="text" id="client-phone">
-						</div>
-					</form>
-				</section>
-
-				<!-- section for client payment method  -->
-				<section>
-					<h2>Payment Method</h2>
-					<form id="order-form-three" method="post" action="confirmation.html" class="grid">
-						<div class="col-12of12">
-							<label for="card-name">Name on Card</label> 
-							<input type="text" id="card-name">
-						</div>
-						<div class="col-6of12">
-							<label for="card-number">Card Number</label> 
-							<input type="text" id="card-number">
-						</div>
-						<div class="col-6of12">
-							<label for="cvv">CVV</label> 
-							<input type="text" id="cvv">
-						</div>
-						<div class="col-6of12">
-							<label for="expiry">Expiry</label> 
-							<input type="text" id="expiry">
-						</div>
-						<div class="col-12of12">
-							<input class="button-default" type="submit" value="Submit">
-						</div>
-					</form>
-				</section>
-			</div>
-			<!-- end col -->
+			<!-- end grid -->
 		</div>
-		<!-- end grid -->
+		<!-- end container -->
 
 		<footer>
 			<p>copyright © <em>re:</em> 2015</p>
