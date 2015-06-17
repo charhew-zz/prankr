@@ -10,6 +10,11 @@
 	margin: 0;
 }
 
+.container-centered {
+	width: 80%;
+	margin: auto;
+}
+
 header {
 	background-image: url("../img/bg-square-texture.png");
     -webkit-background-size: cover;
@@ -43,6 +48,7 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
+	margin-bottom: 2rem;
 }
 
 h2 {
@@ -60,7 +66,7 @@ h2 {
 p {
 	line-height: 160%;
 	color: #222;
-	letter-spacing: 0.05rem;
+	letter-spacing: 0.025rem;
 	font-weight: 300;
 }
 
@@ -82,9 +88,20 @@ footer {
     -o-background-size: cover;
     background-size: cover;
     background-position: top;
+    height: 8rem;
 }
 
-/* button styling */
+footer p {
+	text-align: center;
+	color: #ccc;
+	font-size: .8rem;
+	padding-top: 3rem;
+	letter-spacing: .1rem;
+}
+
+/*----
+button styling
+------- */
 .button-default,
 .button-reset {
 	font-size: 1rem;
@@ -94,10 +111,7 @@ footer {
 	background-color: transparent;
 	border: solid 2px;
 	display: inline-block;
-	margin-top:2rem;
-	margin-right: 1rem;
 	text-align: center;
-	max-width: 18rem;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -125,4 +139,24 @@ footer {
 .button-reset:hover {
 	color:white;
 	background-color: #555555;
+}
+
+/*product listing*/
+.product-listing {
+	text-align: center;
+}
+
+.product-listing h3 {
+	text-transform: uppercase;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.product-listing p {
+	margin-bottom: 2rem;
+}
+
+/*each article in the faq*/
+.faq article {
+	margin-bottom: 2rem;
 }
