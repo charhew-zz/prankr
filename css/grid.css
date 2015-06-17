@@ -1,0 +1,25 @@
+.grid:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+[class*='col-'] {
+	float: left;
+}
+
+.col-4of12 {
+	width:33.33%;
+}
+
+.col-6of12 {
+	width:50%;
+}
+
+.col-8of12 {
+	width:66.66%;
+}
+
+.col-12of12 {
+	width:100%;
+}
