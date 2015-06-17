@@ -28,6 +28,52 @@
 	flex-basis: auto;
 }
 
+/*the first form in the ordering process; seen on product details pages*/
+#order-form-target-info {
+	display: block;
+}
+
+#order-form-target-info:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#order-form-target-info .long-input,
+#order-form-target-info .short-input {
+	padding-top: 1rem;
+	padding-right: 1rem;
+	float: left;
+	padding-bottom: 2rem;
+}
+
+#order-form-target-info .long-input {
+	width: 100%;
+}
+
+#order-form-target-info .short-input {
+	width: 50%;
+}
+
+#order-form-target-info .button-default {
+	float: right;
+	margin-right: 0;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-container section{
+	flex-grow: 2;
+}
+
+.aside {
+	flex-grow: 1;
+}
+
+
 @media(max-width: 32.88em) {
 	section section {
 		margin: 2rem;
