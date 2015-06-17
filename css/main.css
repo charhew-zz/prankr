@@ -101,7 +101,7 @@ h2 {
 }
 
 h2.wo-bottom-margin {
-	margin-bottom: 1rem;
+	margin-bottom: .8rem;
 }
 
 p {
@@ -195,6 +195,9 @@ button styling
 
 .button-edit {
 	text-transform: uppercase;
+	margin-bottom: 1rem;
+	display: inline-block;
+	font-size: .8rem;
 }
 
 /*product listing*/
@@ -214,8 +217,15 @@ button styling
 
 /*each article in the faq*/
 .faq article,
-.reviews article {
+.reviews article,
+.confirmation-info article {
 	margin-bottom: 2rem;
+}
+
+.confirmation-info article h3 {
+	font-size: .9rem;
+	font-weight: 600;
+	letter-spacing: .025rem;
 }
 
 /* form styling */
