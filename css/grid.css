@@ -6,6 +6,13 @@
 
 [class*='col-'] {
 	float: left;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+/*used if you ever want a grid with no padding in the columns*/
+.grid.wo-padding [class*='col-'] {
+	padding: 0;
 }
 
 .col-4of12 {
