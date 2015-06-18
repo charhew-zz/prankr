@@ -146,7 +146,7 @@ h2 {
 }
 
 h2.wo-bottom-margin {
-	margin-bottom: .8rem;
+	margin-bottom: 1.5rem;
 }
 
 p {
@@ -277,7 +277,8 @@ button styling
 .faq article,
 .reviews article,
 .confirmation-info article,
-.contact-info article {
+.contact-info article,
+.who-we-are article {
 	margin-bottom: 2rem;
 }
 
