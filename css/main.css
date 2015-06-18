@@ -60,7 +60,7 @@ header.large {
 	height: 40rem;
 }
 
-header.large img {
+header.large img.page-icon {
 	width: 8%;
 	height: auto;
 	min-width: 5rem;
@@ -73,7 +73,7 @@ header.medium{
 	height: 30rem;
 }
 
-header.medium img {
+header.medium img.page-icon {
 	width: 8%;
 	height: auto;
 	min-width: 5rem;
@@ -100,6 +100,18 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	display: block;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+}
+
+/*the logo in the nav bar*/
+nav img.logo {
+	float: left;
+	width: 30px;
+	height: auto;
 }
 
 nav a {
@@ -115,7 +127,6 @@ nav a {
 	-o-transition: all 0.1s;
 	transition: all 0.1s;
 	color: #DDD;
-	float: right;
 }
 
 nav a:hover {
