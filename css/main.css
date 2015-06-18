@@ -342,6 +342,16 @@ button styling
 	letter-spacing: .025rem;
 }
 
+/*styling for the TOTAL COST information*/
+.confirmation-info article.total-cost h3 {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+.confirmation-info article.total-cost p {
+	font-size: 2rem;
+}
+
 /* form styling */
 label {
 	display: block;
