@@ -310,12 +310,14 @@ button styling
 	margin-bottom: 2rem;
 }
 
-/*each article in the faq*/
+/* margin for articles */
 .faq article,
 .reviews article,
 .confirmation-info article,
 .contact-info article,
-.who-we-are article {
+.who-we-are article
+.blog article
+.feedback article {
 	margin-bottom: 2rem;
 }
 

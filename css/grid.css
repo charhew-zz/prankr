@@ -36,3 +36,9 @@
 .col-12of12 {
 	width:100%;
 }
+
+@media (max-width: 71.875em) {
+	.col4of12 {
+		width: 50%;
+	}
+}
