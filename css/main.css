@@ -10,9 +10,37 @@
 	margin: 0;
 }
 
+/*
+TEST TEST TEST
+---------------
+highlights the borders of all the sections
+---------------
+TEST TEST TEST
+*/
+section {
+	/*border: 4px lime solid;*/
+}
+
 .container-centered {
 	width: 80%;
 	margin: auto;
+}
+
+/*any container that you want to have a striped bg*/
+.container-striped {
+	background-image: url("../img/bg-stripes.png");
+}
+
+/*any container that needs even left and right padding*/
+.container-side-padding {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+/*padding settings for all sections and asides*/
+section,
+aside {
+	padding: 5rem 0;
 }
 
 header {
@@ -112,7 +140,6 @@ h2 {
 	font-size: 1.9rem;
 	letter-spacing: .1rem;
 	font-weight: 400;
-	margin-top: 7rem;
 	margin-bottom: 4rem;
 	text-align: center;
 }
@@ -148,7 +175,11 @@ a {
 	border-bottom: solid 1.5px;
 }
 
-/*used to make space between content and footer*/
+/*used to make space between content and footer.
+Did this instead of putting a top margin on the footer
+because this way, the spacing can be moved into a column,
+which is necessary for columns with backgrounds that need
+to be flush with the footer.*/
 .footer-spacing {
 	display: block;
 	height: 6rem;
@@ -226,6 +257,9 @@ button styling
 /*product listing*/
 .product-listing {
 	text-align: center;
+	background: #fff;
+	margin: 0 1rem;
+	padding: 2rem;
 }
 
 .product-listing h3 {
