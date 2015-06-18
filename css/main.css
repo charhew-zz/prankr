@@ -95,6 +95,23 @@ nav {
 	padding-top: 2rem;
 }
 
+/*the hamburger or menu button*/
+.menu-icon {
+	float: right;
+	color: #fff;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	padding: 0.5rem;
+	font-size: .7rem;
+	cursor: pointer;
+	display: none;
+}
+
+.menu-icon:hover {
+	color: #999;
+	border: 1px solid #999;
+}
+
 nav ul {
 	list-style: none;
 	margin: 0;
@@ -112,6 +129,15 @@ nav img.logo {
 	float: left;
 	width: 30px;
 	height: auto;
+	-webkit-transition: opacity 0.1s;
+	-moz-transition: opacity 0.1s;
+	-ms-transition: opacity 0.1s;
+	-o-transition: opacity 0.1s;
+	transition: opacity 0.1s;
+}
+
+nav img.logo:hover {
+	opacity: .8;
 }
 
 nav a {
@@ -318,4 +344,50 @@ input[type="text"] {
 	margin-bottom: 3rem;
 	border: solid 1px #DDD;
 	width: 100%;
+}
+
+@media(max-width: 39.25em) {
+	.menu-icon {
+		display: block;
+		margin-right: 2rem;
+	}
+
+	nav img.logo {
+		float: left;
+		margin-left: 2rem;
+	}
+
+	nav {
+		background: #222;
+		padding-top: 1rem;
+		height: 4rem;
+		z-index: 30;
+	}
+
+	nav ul {
+		display: none;
+		clear: both;
+		float: none;
+		background: #222;
+	}
+
+	nav ul li { 
+		display: block;
+		float: none;
+		clear: both;
+		margin: 0;
+	}
+
+	nav ul li a {
+		margin: 0;
+		padding: .8rem 0;
+		height: 3rem;
+		display: inline-block;
+	}
+
+	.nav-grid,
+	.nav-grid [class*='col-'] {
+		padding: 0;
+		z-index: 30;
+	}
 }
