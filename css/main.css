@@ -182,7 +182,8 @@ h2 {
 	text-align: center;
 }
 
-h2.wo-bottom-margin {
+/*if you want a bit less space under an h2*/
+h2.small-bottom-margin {
 	margin-bottom: 1.5rem;
 }
 
