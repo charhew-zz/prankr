@@ -26,23 +26,33 @@ header {
 	text-align: center;
 }
 
-/* header for just the home page */
+/* large header*/
 header.large {
 	height: 40rem;
 }
 
-header.medium{
-	height: 30rem;
-}
-
-header img {
+header.large img {
 	width: 8%;
 	height: auto;
-
 	min-width: 5rem;
 	margin-bottom: 2rem;
 	margin-top: 6rem;
 }
+
+/*medium header*/
+header.medium{
+	height: 30rem;
+}
+
+header.medium img {
+	width: 8%;
+	height: auto;
+	min-width: 5rem;
+	margin-bottom: 2rem;
+	margin-top: 4rem;
+}
+
+
 
 nav {
 	height: 6rem;
@@ -129,6 +139,12 @@ a {
 /* when you hover on in-text links */
 .text-link:hover {
 	border-bottom: solid 1.5px;
+}
+
+/*used to make space between content and footer*/
+.footer-spacing {
+	display: block;
+	height: 6rem;
 }
 
 footer {
