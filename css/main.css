@@ -7,6 +7,7 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: "Open Sans", sans-serif;
+	font-size: .96rem;
 	margin: 0;
 }
 
@@ -209,7 +210,7 @@ button styling
 ------- */
 .button-default,
 .button-reset {
-	font-size: 1rem;
+	font-size: .96rem;
 	font-weight: 600;
 	letter-spacing: 0.1rem;
 	padding: .9rem 3.5rem;
@@ -259,7 +260,6 @@ button styling
 .product-listing {
 	text-align: center;
 	background: #fff;
-	margin: 0 1rem;
 	padding: 2rem;
 }
 
