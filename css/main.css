@@ -315,8 +315,8 @@ button styling
 .reviews article,
 .confirmation-info article,
 .contact-info article,
-.who-we-are article
-.blog article
+.who-we-are article,
+.blog article,
 .feedback article {
 	margin-bottom: 2rem;
 }
