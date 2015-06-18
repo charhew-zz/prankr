@@ -357,6 +357,11 @@ textarea {
 	resize: none;
 }
 
+input[type="checkbox"] {
+	margin-right: 1rem;
+	margin-bottom: 3rem;
+}
+
 @media(max-width: 39.25em) {
 	.menu-icon {
 		display: block;
