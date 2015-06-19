@@ -37,12 +37,26 @@
 	width:100%;
 }
 
+@media (max-width: 84.375em) {
+	/*slightly less padding on smaller screens. prevents h2 from becoming more than 1 line*/
+	[class*='col-'] {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
 @media (max-width: 71.875em) {
 	.col-4of12 {
 		width: 50%;
 	}
 
 	.col-8of12 {
+		width: 100%;
+	}
+
+	/*some special columns need to be full-width at this media query.
+	this class achieves this.*/
+	.full-width-at-71-ems {
 		width: 100%;
 	}
 
@@ -57,6 +71,21 @@
 
 	h1 {
 		font-size: 1.7rem;
+	}
+
+	/*asides become full-width*/
+	aside {
+		width: 100%;
+		padding-bottom: 0;
+	}
+
+	/*special stacked columns; they work opposite of normal columns.
+	they are stacked when the screen is big,
+	but side-by-side when the screen is medium,
+	then stacked again when the screen is small*/
+	.stack-of-3 article {
+		width: 33.33%;
+		float: left;
 	}
 }
 
@@ -77,19 +106,45 @@
 	section, aside {
 		padding: 4rem 0;
 	}
+
+	/*special stacked columns; they work opposite of normal columns.
+	they are stacked when the screen is big,
+	but side-by-side when the screen is medium,
+	then stacked again when the screen is small*/
+	.stack-of-3 article {
+		width: 100%;
+	}
+
+	/*we dont want these to go to 100% yet*/
+	.container-buttons-side-by-side [class*='col-'] {
+		width: 50%;
+	}
 }
 
 @media (max-width: 40.625em) {
 	.container-centered {
 		width: 95%;
 	}
+}
 
-	.footer-spacing {
-		height: 0rem;
+@media (max-width: 27.438em) {
+	.button-default,
+	.button-reset {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	section, aside {
+		padding: 3rem 0;
 	}
 }
 
 @media (max-width: 25em) {
+	/*now the buttons go full width*/
+	.container-buttons-side-by-side [class*='col-'] {
+		width: 100%;
+	}
+
 	.button-default,
 	.button-reset {
 		width: 100%;

@@ -35,7 +35,8 @@
 
 		<div class="container-centered">
 			<div class="grid">
-				<div class="col-4of12">
+				<!-- this is a special column. it will be full-width when the screen is at 71ems -->
+				<div class="col-4of12 full-width-at-71-ems">
 					<aside>
 						<div class="grid wo-padding">
 							<div class="col-12of12">
@@ -49,7 +50,7 @@
 						<!-- end grid -->
 
 						<div class="grid wo-padding">
-							<div class="col-12of12 confirmation-info">
+							<div class="col-12of12 confirmation-info stack-of-3">
 								<article>
 									<h3>Target Name</h3>
 									<p>Ramsay Snow</p>
@@ -59,7 +60,6 @@
 									<p>123 Winterfell Street<br>
 									Surrey, BC</p>
 								</article>
-
 								<article class="total-cost">
 									<h3>Total Cost</h3>
 									<p>$65.00</p>
@@ -115,7 +115,7 @@
 						</form>
 
 						<!-- buttons for form -->
-						<div class="grid">
+						<div class="grid container-buttons-side-by-side">
 							<div class="col-6of12">
 								<a href="index.html" class="button-reset">Cancel</a>
 							</div>
@@ -133,8 +133,6 @@
 			<!-- end grid -->
 		</div>
 		<!-- end container -->
-
-		<div class="footer-spacing"> </div>
 
 		<footer>
 			<p>copyright © <em>re:</em> 2015</p>

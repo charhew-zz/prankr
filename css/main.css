@@ -93,6 +93,8 @@ header.small h1 {
 nav {
 	height: 6rem;
 	padding-top: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 /*the hamburger or menu button*/
@@ -146,7 +148,7 @@ nav a {
 	font-size: 0.8rem;
 	letter-spacing: 0.1rem;
 	padding-bottom: 0.2rem;
-	margin-right: 3rem;
+	margin-left: 3rem;
 	-webkit-transition: all 0.1s;
 	-moz-transition: all 0.1s;
 	-ms-transition: all 0.1s;
@@ -379,7 +381,8 @@ input[type="checkbox"] {
 	margin-bottom: 3rem;
 }
 
-@media(max-width: 39.25em) {
+/*responsive nav bar*/
+@media(max-width: 42em) {
 	.menu-icon {
 		display: block;
 		margin-right: 2rem;
@@ -388,6 +391,9 @@ input[type="checkbox"] {
 	nav img.logo {
 		float: left;
 		margin-left: 2rem;
+		margin-top: .2rem;
+		height: 1.8rem;
+		width: auto;
 	}
 
 	nav {
@@ -395,6 +401,8 @@ input[type="checkbox"] {
 		padding-top: 1rem;
 		height: 4rem;
 		z-index: 30;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	nav ul {
