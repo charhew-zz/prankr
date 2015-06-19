@@ -106,6 +106,16 @@ header.small h1 {
 	margin-top: 3rem;
 }
 
+/*small header - title + button*/
+header.small-with-button{
+	height: 21rem;
+}
+
+header.small-with-button h1 {
+	margin-top: 2rem;
+	margin-bottom: 2.5rem;
+}
+
 nav {
 	height: 6rem;
 	padding-top: 2rem;
@@ -315,7 +325,7 @@ button styling
 .button-default:focus,
 .button-banner:hover,
 .button-banner:active,
-.button-banner:focus, {
+.button-banner:focus {
 	color:white;
 	background-color: #FF0800;
 }
