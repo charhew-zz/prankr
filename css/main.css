@@ -126,7 +126,9 @@ nav {
 	display: none;
 }
 
-.menu-icon:hover {
+.menu-icon:hover,
+.menu-icon:active,
+.menu-icon:focus {
 	color: #999;
 	border: 1px solid #999;
 }
@@ -155,7 +157,9 @@ nav img.logo {
 	transition: opacity 0.1s;
 }
 
-nav img.logo:hover {
+nav img.logo:hover,
+nav img.logo:active,
+nav img.logo:focus {
 	opacity: .8;
 }
 
@@ -174,7 +178,9 @@ nav a {
 	color: #DDD;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:active,
+nav a:focus {
 	border-bottom: solid 2px;
 }
 
@@ -234,7 +240,9 @@ a {
 }
 
 /* when you hover on in-text links */
-.text-link:hover {
+.text-link:hover,
+.text-link:active,
+.text-link:focus {
 	border-bottom: solid 1.5px;
 }
 
@@ -303,13 +311,19 @@ button styling
 
 /* when hovering on default button */
 .button-default:hover,
-.button-banner:hover {
+.button-default:active,
+.button-default:focus,
+.button-banner:hover,
+.button-banner:active,
+.button-banner:focus, {
 	color:white;
 	background-color: #FF0800;
 }
 
 /* when hovering on reset button */
-.button-reset:hover {
+.button-reset:hover,
+.button-reset:active,
+.button-reset:focus {
 	color:white;
 	background-color: #555555;
 }
@@ -440,6 +454,12 @@ input[type="checkbox"] {
 		padding: .8rem 0;
 		height: 3rem;
 		display: inline-block;
+	}
+
+	nav a:hover,
+	nav a:active,
+	nav a:focus {
+		border-bottom: none;
 	}
 
 	.nav-grid,
