@@ -111,6 +111,7 @@ nav {
 	padding-top: 2rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
+	z-index: 30;
 }
 
 /*the hamburger or menu button*/
@@ -416,13 +417,12 @@ input[type="checkbox"] {
 		background: #222;
 		padding-top: 1rem;
 		height: 4rem;
-		z-index: 30;
 		padding-left: 0;
 		padding-right: 0;
 	}
 
 	nav ul {
-		display: none;
+		display: block;
 		clear: both;
 		float: none;
 		background: #222;
