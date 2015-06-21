@@ -425,7 +425,7 @@ input[type="checkbox"] {
 }
 
 /*responsive nav bar*/
-@media(max-width: 42em) {
+@media(max-width: 48em) {
 	.menu-icon {
 		display: block;
 		margin-right: 2rem;
@@ -448,7 +448,7 @@ input[type="checkbox"] {
 	}
 
 	nav ul {
-		display: block;
+		display: none;
 		clear: both;
 		float: none;
 		background: #222;
