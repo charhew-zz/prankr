@@ -209,10 +209,10 @@ h1 {
 h2 {
 	font-family: "Source Sans Pro";
 	display: inline-block;
-	border-bottom: solid 4.5px #000;
+	border-bottom: solid 3px #000;
 	font-size: 1.9rem;
 	letter-spacing: .1rem;
-	font-weight: 400;
+	font-weight: 600;
 	margin-bottom: 4rem;
 	text-align: center;
 }
@@ -361,6 +361,8 @@ button styling
 	text-transform: uppercase;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	font-weight: 600;
+	font-size: 1.1rem;
 }
 
 .product-listing p {

@@ -37,6 +37,13 @@
 	width:100%;
 }
 
+@media (min-width: 72em) {
+	/*centered container is fixed after a certain point*/
+	.container-centered {
+		width: 62rem;
+	}
+}
+
 @media (max-width: 84.375em) {
 	/*slightly less padding on smaller screens. prevents h2 from becoming more than 1 line*/
 	[class*='col-'] {
