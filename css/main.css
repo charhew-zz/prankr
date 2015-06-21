@@ -124,6 +124,11 @@ nav {
 	z-index: 30;
 }
 
+/*home link is only visible in mobile*/
+nav .home-link {
+	display: none;
+}
+
 /*the hamburger or menu button*/
 .menu-icon {
 	float: right;
@@ -355,6 +360,8 @@ button styling
 	text-align: center;
 	background: #fff;
 	padding: 2rem;
+	position: relative; /*for positioning button child*/
+	height: 24rem;
 }
 
 .product-listing h3 {
@@ -362,11 +369,19 @@ button styling
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	font-weight: 400;
-	font-size: 1.1rem;
+	font-size: 1rem;
+	letter-spacing: 0.05rem;
 }
 
 .product-listing p {
 	margin-bottom: 2rem;
+}
+
+.product-listing .button-default {
+	position: absolute;
+	bottom: 2rem;
+	left: 2rem;
+	right: 2rem;
 }
 
 /* margin for articles */
@@ -431,6 +446,11 @@ input[type="checkbox"] {
 		margin-right: 2rem;
 	}
 
+	/*home link is only visible in mobile*/
+	nav .home-link {
+		display: block;
+	}
+
 	nav img.logo {
 		float: left;
 		margin-left: 2rem;
@@ -480,3 +500,6 @@ input[type="checkbox"] {
 		z-index: 30;
 	}
 }
+
+/*product listing height issues
+fixed with these media queries!*/
