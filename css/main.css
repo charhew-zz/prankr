@@ -384,6 +384,12 @@ button styling
 	right: 2rem;
 }
 
+/*the only-in-Canada disclaimer in the order-form
+needs special margins*/
+#order-form-one p.disclaimer {
+	margin-bottom: 2rem;
+}
+
 /* margin for articles */
 .faq article,
 .reviews article,
