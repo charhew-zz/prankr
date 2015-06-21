@@ -245,6 +245,12 @@ p {
 	font-weight: 300;
 }
 
+p.submitted-by {
+	color: #999;
+	font-size: 0.9rem;
+	margin-top: 0.5rem;
+}
+
 em {
 	color: #FF0800;
 	font-style: normal;
@@ -425,7 +431,7 @@ needs special margins*/
 }
 
 /*comment and share counter under each blog post*/
-section.blog-comment-counter {
+section.blog-comment-counter .review-by {
 	font-family: "Source Sans Pro";
 	font-size: .9rem;
 	margin-top: 1rem;
