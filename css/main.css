@@ -467,6 +467,10 @@ select option {
 	resize: none;
 }
 
+select, select option {
+	background-color: #fff;
+}
+
 input[type="checkbox"] {
 	margin-right: 1rem;
 	margin-bottom: 3rem;
