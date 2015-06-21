@@ -251,6 +251,10 @@ p.submitted-by {
 	margin-top: 0.5rem;
 }
 
+p.submitted-by a {
+	font-size: 0.9rem;
+}
+
 em {
 	color: #FF0800;
 	font-style: normal;
@@ -300,6 +304,10 @@ footer p {
 	font-size: .8rem;
 	padding-top: 3rem;
 	letter-spacing: .1rem;
+}
+
+img {
+	max-width: 100%;
 }
 
 /*----
