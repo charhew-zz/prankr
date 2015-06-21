@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Customer Reviews</title>
+		<title>customer reviews</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/grid.css">
 	</head>
@@ -36,19 +36,19 @@
 						<article>
 							<p><strong>“He thought the cops found his torrented movie collection!”</strong></p>
 							<p>My friend brags about his torrented movie collection ALL the time. I mean, it’s great for when we hang out at his house, but it gets a little overboard sometimes. I wanted to get him back, and I realized the ultimate prank would be the crime scene one! He ended up thinking that the cops finally noticed how much he was torrenting and he started running away as soon as he saw the cops. He called me, and I think my laughter tipped him off. Best prank EVER.</p>
-							<p class="submitted-by">Submitted by Nate // Crime Scene</p>
+							<p class="submitted-by">Submitted by Nate // <a class="text-link" href="product-crime-scene.html">Crime Scene</a></p>
 						</article>
 
 						<article>
 							<p><strong>"I've never seen my friend this scared!"</strong></p>
 							<p>My friend is convinced that zombies exist. I purchased the "Apocalypse" package and I timed it so I was at his place as fifty people ran up to his house, pounded on the door, and yelled about zombies. He screamed and ran towards the cellar! I tried to act along but in the end I started laughing. He was totally impressed at how realistic the prank was!</p>
-							<p class="submitted-by">Submitted by Jared // Apocalypse</p>
+							<p class="submitted-by">Submitted by Jared // <a class="text-link" href="product-apocalypse.html">Apocalypse</a></p>
 						</article>
 
 						<article>
 							<p><strong>“He refused to talk to me for two days”</strong></p>
 							<p>It was so worth it though. Got the Third Wheel package for my brother, who broke up with his girlfriend a week ago. I watched the video since I couldn’t be there for the prank, and my brother stormed up to one of the couples and started yelling and they put their hand on his shoulder and asked him to sit down. MY BROTHER STARTED TEARING UP and confided in the couple about his breakup feelings. Looks like I paid for an extra therapy session! But after I told him I was the one who pulled the prank, he ignored me for two days. I think he’s over it now, though, since he made me breakfast today.</p>
-							<p class="submitted-by">Submitted by Joanne // Third Wheel</p>
+							<p class="submitted-by">Submitted by Joanne // <a class="text-link" href="product-third-wheel.html">Third Wheel</a></p>
 						</article>
 					</div>
 				</div>
@@ -66,7 +66,11 @@
 							<label for="form-name"> Name </label> 
 							<input type="text" id="form-name">
 							<label for="form-prank"> Purchased Prank </label>
-							<input type="text" id="form-prank"> 
+							<select>
+								<option value="apocalypse">Apocalypse</option>
+								<option value="third wheel">Third Wheel</option>
+								<option value="crime scene">Crime Scene</option>
+							</select>
 							<label for="form-textarea"> Review </label>
 							<textarea name="textarea" rows="10" cols="50" placeholder="Write your review here"></textarea>
 						</form>
