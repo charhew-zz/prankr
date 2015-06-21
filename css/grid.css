@@ -170,6 +170,14 @@
 		margin-bottom: 1rem;
 	}
 
+	/*buttons in product listing are not 100%
+	because they use absolute pos instead.*/
+	.product-listing .button-default,
+	.product-listing .button-reset {
+		width: auto;
+	}
+
+
 	section, aside {
 		padding: 3rem 0;
 	}
