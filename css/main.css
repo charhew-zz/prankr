@@ -476,6 +476,11 @@ input[type="checkbox"] {
 	margin-bottom: 3rem;
 }
 
+/*stops expiry dd from stacking*/
+#order-form-three #expiry .col-6of12 {
+	width: 50%;
+}
+
 /*the slash between the expiry month and year*/
 [class*='col-'].slash {
 	text-align: center;

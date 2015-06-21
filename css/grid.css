@@ -194,18 +194,3 @@ makes them more responsive*/
 		width: 33.33%;
 	}
 }
-
-
-/*media queries for order-form-three!
-fixes expiry stacking problems and
-makes them more responsive*/
-@media (max-width: 10px) {
-	#order-form-three #expiry .col-5of12 {
-		width: 41.66%;
-	}
-
-	/*this col contains the slash*/
-	#order-form-three #expiry .col-2of12 {
-		width: 16.66%;
-	}
-}
