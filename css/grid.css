@@ -186,7 +186,7 @@
 /*media queries for order-form-one!
 fixes date/time stacking problems and
 makes them more responsive*/
-@media (max-width: 1160px) {
+@media (max-width: 72.5em) {
 	#order-form-one #date-of-prank {
 		width: 100%;
 	}
@@ -200,5 +200,18 @@ makes them more responsive*/
 	}
 	#order-form-one #time-of-prank [class*='col-'] {
 		width: 33.33%;
+	}
+}
+
+/*media queries for product-diagram-and-description!
+fixes stacking problems and
+makes them more responsive*/
+@media (max-width: 65.625em) {
+	#product-diagram-and-description [class*='col-'] {
+		width: 100%;
+	}
+
+	#product-diagram-and-description img {
+		margin-bottom: 2rem;
 	}
 }
