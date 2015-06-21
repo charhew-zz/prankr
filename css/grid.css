@@ -29,6 +29,10 @@
 	width:33.33%;
 }
 
+.col-5of12 {
+	width: 41.66%;
+}
+
 .col-6of12 {
 	width:50%;
 }
@@ -164,5 +168,40 @@
 
 	section, aside {
 		padding: 3rem 0;
+	}
+}
+
+/*media queries for order-form-one!
+fixes date/time stacking problems and
+makes them more responsive*/
+@media (max-width: 1160px) {
+	#order-form-one #date-of-prank {
+		width: 100%;
+	}
+
+	#order-form-one #date-of-prank [class*='col-'] {
+		width: 50%;
+	}
+
+	#order-form-one #time-of-prank {
+		width: 100%;
+	}
+	#order-form-one #time-of-prank [class*='col-'] {
+		width: 33.33%;
+	}
+}
+
+
+/*media queries for order-form-three!
+fixes expiry stacking problems and
+makes them more responsive*/
+@media (max-width: 10px) {
+	#order-form-three #expiry .col-5of12 {
+		width: 41.66%;
+	}
+
+	/*this col contains the slash*/
+	#order-form-three #expiry .col-2of12 {
+		width: 16.66%;
 	}
 }

@@ -43,6 +43,12 @@ section {
 	margin: auto;
 }
 
+/*this will always be a percentage, even at a wide screen.*/
+.container-centered-never-fixed {
+	width: 80%;
+	margin: auto;
+}
+
 /*any container that you want to have a striped bg*/
 .container-striped {
 	background-image: url("../img/bg-stripes.png");
@@ -416,6 +422,25 @@ needs special margins*/
 
 .confirmation-info article.total-cost p {
 	font-size: 2rem;
+}
+
+/*comment and share counter under each blog post*/
+section.blog-comment-counter {
+	font-family: "Source Sans Pro";
+	font-size: .9rem;
+	margin-top: 1rem;
+	padding-top: 0;
+}
+
+section.blog-comment-counter a {
+	font-family: "Source Sans Pro";
+	font-size: .9rem;
+	cursor: pointer;
+}
+
+section.blog-comment-counter .comment-form {
+	margin-top: 1rem;
+	display: none;
 }
 
 /* form styling */
