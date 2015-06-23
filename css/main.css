@@ -128,12 +128,18 @@ nav {
 	padding-left: 2rem;
 	padding-right: 2rem;
 	z-index: 30;
+	position: relative;
 }
 
 /*home link is only visible in mobile*/
 nav .home-link {
 	display: none;
 }
+
+nav .logo-link {
+	float: left;
+}
+
 
 /*the hamburger or menu button*/
 .menu-icon {
