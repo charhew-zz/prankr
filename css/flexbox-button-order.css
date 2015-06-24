@@ -1,0 +1,36 @@
+/*
+This CSS fixes the order of CANCEL and SUBMIT buttons.
+when they stack on small screens, the SUBMIT button will
+appear ABOVE the cancel button, rather than below it.
+*/
+
+.container-buttons-side-by-side [class*='col-'] {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+/*the second button is floated right*/
+.container-buttons-side-by-side [class*='col-'] a:last-of-type {
+	margin-left: auto;
+}
+
+
+/*change the order when the screen gets small*/
+@media(max-width: 25em) {
+	.container-buttons-side-by-side .button-default {
+		-moz-order: 1;
+		-webkit-order: 1;
+		order: 1;
+	}
+
+	.container-buttons-side-by-side .button-reset {
+		-moz-order: 2;
+		-webkit-order: 2;
+		order: 2;
+	}
+}
+

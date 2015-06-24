@@ -133,11 +133,6 @@
 	.stack-of-3 article {
 		width: 100%;
 	}
-
-	/*we dont want these to go to 100% yet*/
-	.container-buttons-side-by-side [class*='col-'] {
-		width: 50%;
-	}
 }
 
 @media (max-width: 40.625em) {
@@ -159,11 +154,6 @@
 }
 
 @media (max-width: 25em) {
-	/*now the buttons go full width*/
-	.container-buttons-side-by-side [class*='col-'] {
-		width: 100%;
-	}
-
 	.button-default,
 	.button-reset {
 		width: 100%;

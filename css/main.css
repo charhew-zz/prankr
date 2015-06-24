@@ -11,17 +11,6 @@
 	margin: 0;
 }
 
-/*
-TEST TEST TEST
----------------
-highlights the borders of all the sections
----------------
-TEST TEST TEST
-*/
-section {
-	/*border: 4px lime solid;*/
-}
-
 #styleguide section h3 {
 	margin-bottom: 2rem;
 	margin-top: 2rem;
@@ -136,8 +125,14 @@ nav .home-link {
 	display: none;
 }
 
+/*the logo link in nav bar*/
 nav .logo-link {
 	float: left;
+}
+
+/*remove underline from logo link*/
+nav .logo-link:hover {
+	border: none;
 }
 
 
@@ -517,6 +512,16 @@ input[type="checkbox"] {
 	font-weight: 300;
 }
 
+/*hidden/not-hidden classes*/
+.hidden {
+	display: none;
+}
+
+.not-hidden {
+	display: block;
+}
+
+
 /*responsive nav bar*/
 @media(max-width: 48em) {
 	.menu-icon {
@@ -578,6 +583,3 @@ input[type="checkbox"] {
 		z-index: 30;
 	}
 }
-
-/*product listing height issues
-fixed with these media queries!*/
