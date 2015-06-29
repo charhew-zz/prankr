@@ -316,6 +316,26 @@ img {
 	max-width: 100%;
 }
 
+.contact-info img {
+	margin-bottom: 2rem;
+}
+
+.google-maps {
+	position: relative;
+	padding-bottom: 75%; 
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 2rem;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 /*----
 button styling
 ------- */
