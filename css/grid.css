@@ -215,17 +215,7 @@ makes them more responsive*/
 	}
 }
 
-@media (max-width: 27.438em) {
-	.button-default,
-	.button-reset {
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-
-	section, aside {
-		padding: 3rem 0;
-	}
-
+@media (max-width: 31.25em) {
 	.bios .bio img {
 		float: none;
 		width: 80%;
@@ -251,6 +241,18 @@ makes them more responsive*/
 	}
 }
 
+@media (max-width: 27.438em) {
+	.button-default,
+	.button-reset {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	section, aside {
+		padding: 3rem 0;
+	}
+}
+
 @media (max-width: 25em) {
 	.button-default,
 	.button-reset {
@@ -268,5 +270,10 @@ makes them more responsive*/
 
 	section, aside {
 		padding: 3rem 0;
+	}
+
+	.bios .bio img,
+	.bios .bio p {
+		width: 100%;
 	}
 }
