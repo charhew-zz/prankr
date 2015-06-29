@@ -49,6 +49,11 @@
 	width:100%;
 }
 
+/*
+---
+MIN-WIDTH MEDIA QUERIES
+---
+*/
 @media (min-width: 72em) {
 	/*centered container is fixed after a certain point*/
 	.container-centered {
@@ -56,11 +61,36 @@
 	}
 }
 
+/*
+---
+MAX-WIDTH MEDIA QUERIES
+---
+*/
 @media (max-width: 84.375em) {
 	/*slightly less padding on smaller screens. prevents h2 from becoming more than 1 line*/
 	[class*='col-'] {
 		padding-left: 1rem;
 		padding-right: 1rem;
+	}
+}
+
+/*media queries for order-form-one!
+fixes date/time stacking problems and
+makes them more responsive*/
+@media (max-width: 72.5em) {
+	#order-form-one #date-of-prank {
+		width: 100%;
+	}
+
+	#order-form-one #date-of-prank [class*='col-'] {
+		width: 50%;
+	}
+
+	#order-form-one #time-of-prank {
+		width: 100%;
+	}
+	#order-form-one #time-of-prank [class*='col-'] {
+		width: 33.33%;
 	}
 }
 
@@ -108,6 +138,25 @@
 	}
 }
 
+/*media queries for product-diagram-and-description!
+fixes stacking problems and
+makes them more responsive*/
+@media (max-width: 65.625em) {
+	#product-diagram-and-description [class*='col-'] {
+		width: 100%;
+	}
+
+	#product-diagram-and-description img {
+		margin-bottom: 2rem;
+	}
+
+	.bios img,
+	.bios .bio p {
+		width: 80%;
+		height: auto;
+	}
+}
+
 @media (max-width: 50em) {
 	.col-4of12 {
 		width: 100%;
@@ -115,6 +164,27 @@
 
 	.col-6of12 {
 		width: 100%;
+	}
+
+	
+
+	.bios .bio img {
+		float: left;
+		width: 40%;
+		padding-right: 2rem;
+	}
+
+	.bios .bio h3,
+	.bios .bio p {
+		text-align: left;
+	}
+
+	.bios .bio h3 {
+		margin-top: 0;
+	}
+
+	.bios article.bio {
+		padding-left: 0;
 	}
 
 	h2 {
@@ -170,38 +240,5 @@
 
 	section, aside {
 		padding: 3rem 0;
-	}
-}
-
-/*media queries for order-form-one!
-fixes date/time stacking problems and
-makes them more responsive*/
-@media (max-width: 72.5em) {
-	#order-form-one #date-of-prank {
-		width: 100%;
-	}
-
-	#order-form-one #date-of-prank [class*='col-'] {
-		width: 50%;
-	}
-
-	#order-form-one #time-of-prank {
-		width: 100%;
-	}
-	#order-form-one #time-of-prank [class*='col-'] {
-		width: 33.33%;
-	}
-}
-
-/*media queries for product-diagram-and-description!
-fixes stacking problems and
-makes them more responsive*/
-@media (max-width: 65.625em) {
-	#product-diagram-and-description [class*='col-'] {
-		width: 100%;
-	}
-
-	#product-diagram-and-description img {
-		margin-bottom: 2rem;
 	}
 }

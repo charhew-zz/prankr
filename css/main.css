@@ -246,6 +246,11 @@ p {
 	font-weight: 300;
 }
 
+/*any paragraph that is directly after another paragraph*/
+p + p {
+	margin-top: 1rem;
+}
+
 p.submitted-by {
 	color: #999;
 	font-size: 0.9rem;
@@ -410,7 +415,8 @@ button styling
 	height: 24rem;
 }
 
-.product-listing h3 {
+.product-listing h3,
+.bios .bio h3 {
 	text-transform: uppercase;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -419,7 +425,8 @@ button styling
 	letter-spacing: 0.05rem;
 }
 
-.product-listing p {
+.product-listing p,
+.bios .bio p {
 	margin-bottom: 2rem;
 }
 
@@ -434,6 +441,29 @@ button styling
 needs special margins*/
 #order-form-one p.disclaimer {
 	margin-bottom: 2rem;
+}
+
+/*bios on the who we are page*/
+.bios {
+	text-align: center;
+}
+
+.bios img,
+.bios .bio p {
+	width: 70%;
+	height: auto;
+}
+
+.bios .bio p {
+	display: block;
+	margin: auto;
+}
+
+/*bio*/
+.bios .bio {
+	text-align: center;
+	background: #fff;
+	padding: 2rem;
 }
 
 /* margin for articles */
