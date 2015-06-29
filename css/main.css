@@ -56,7 +56,7 @@ aside {
 }
 
 header {
-	background-image: url("../img/bg-square-texture.png");
+	background-image: url("../img/bg-banner.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
@@ -301,7 +301,7 @@ to be flush with the footer.*/
 }
 
 footer {
-	background: url("../img/bg-square-texture.png");
+	background: url("../img/bg-banner.png");
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
