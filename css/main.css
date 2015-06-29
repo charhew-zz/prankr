@@ -331,6 +331,29 @@ img {
 	margin-bottom: 2rem;
 }
 
+.share-icons img {
+	width: 2rem;
+	height: auto;
+	margin-right: 1rem;
+}
+
+.share-icons {
+	padding-top: 2.5rem;
+	padding-bottom: 0;
+}
+
+.share-icon {
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	transition: all 0.1s;
+}
+
+.share-icon:hover {
+	opacity: 0.6;
+}
+
 .google-maps {
 	position: relative;
 	padding-bottom: 75%; 
