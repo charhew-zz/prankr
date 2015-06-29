@@ -11,9 +11,9 @@
 	<body id="styleguide">
 		<header>
 			<nav>
-				<a href="#interactive_elements">combined</a>
+				<a href="#interactive_elements">interactive</a>
 				<a href="#text_elements">text</a>
-				<a href="#combined_elements">interactive</a>
+				<a href="#combined_elements">combined</a>
 				<a href="#templates">templates</a>
 			</nav>
 		</header>
@@ -300,6 +300,71 @@
 					<p>copyright © <em>pranker</em> 2015</p>
 				</footer>
 			</section>
+
+			<section>
+				<div class="container-centered">
+					<h2>Blog Post</h2>
+					<h3>CSS selector:</h3>
+					<p>.blog article</p>
+
+					<h3>Sample code:</h3>
+					<code>&lt;div class="blog"&gt;<br>
+					&lt;article&gt;<br>
+					&lt;h2&gt;Blog Title&lt;/article&gt;<br>
+					&lt;p&gt;Blog text lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium velit quis condimentum facilisis. Praesent sit amet enim enim. Sed sodales pretium viverra.&lt;/p&gt;<br>
+					&lt;/article&gt;<br>
+					&lt;/div&gt;</code>
+
+					<h3>Rendered element</h3>
+				</div>
+				<div class="container-centered">
+					<div class="grid">
+						<div class="col-12of12 blog">
+							<article>
+								<h2>Blog Title</h2>
+								<p>Blog text lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium velit quis condimentum facilisis. Praesent sit amet enim enim. Sed sodales pretium viverra.</p>
+
+								<section class="share-icons">
+									<a href="#" class="share-icon" ><img src="img/icon-facebook.png" alt="fb icon"></a>
+									<a href="#" class="share-icon" ><img src="img/icon-twitter.png" alt="twitter icon"></a>
+									<a href="#" class="share-icon" ><img src="img/icon-google-plus.png" alt="google plus icon"></a>
+								</section>
+
+								<section class="blog-comment-counter">
+									<a class="text-link comment-button">O Comments</a> // Posted by <a class="text-link" href="contact.html">Author Name</a> // 07.11.15
+									<section class="container-striped comment-form">
+										<div class="container-centered-never-fixed">
+											<form method="post" action="#">
+												<label>Name</label> 
+												<input type="text">
+												<label>Comment</label>
+												<textarea name="textarea" rows="5" cols="50" placeholder="Write your comment here"></textarea>
+											</form>
+
+											<!-- buttons for form -->
+											<div class="grid wo-padding container-buttons-side-by-side">
+												<div class="col-6of12">
+													<a class="button-reset">Cancel</a>
+												</div>
+
+												<div class="col-6of12 button-right">
+													<a class="button-default">submit</a>
+												</div>
+											</div>
+										</div>
+									</section>
+									<!-- end comment form -->
+								</section>
+								<!-- end entire commment section -->
+							</article>
+						</div>
+						<!-- end col -->
+					</div>
+					<!-- end grid -->
+				</div>
+				<!-- end container-centered -->
+			</section>
+
 		</section>
 		<!-- end of combined elements section -->
 
@@ -357,7 +422,7 @@
 				<div class="footer-spacing"> </div>
 				
 				<footer>
-					<p>copyright © <em>re:</em> 2015</p>
+					<p>copyright © <em>pranker</em> 2015</p>
 				</footer>
 
 			</section>
@@ -436,7 +501,7 @@
 				<div class="footer-spacing"> </div>
 
 				<footer>
-					<p>copyright © <em>re:</em> 2015</p>
+					<p>copyright © <em>pranker</em> 2015</p>
 				</footer>
 
 			</section>
@@ -501,7 +566,7 @@
 				<div class="footer-spacing"> </div>
 
 				<footer>
-					<p>copyright © <em>re:</em> 2015</p>
+					<p>copyright © <em>pranker</em> 2015</p>
 				</footer>
 			</section>
 		</section>
