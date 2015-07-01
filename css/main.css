@@ -74,7 +74,7 @@ header.large {
 header.large img.page-icon {
 	width: 15%;
 	height: auto;
-	min-width: 5rem;
+	min-width: 12rem;
 	margin-bottom: 2rem;
 	margin-top: 6rem;
 }
@@ -83,19 +83,6 @@ header.large h1 {
 	text-transform: none;
 	font-weight: 400;
 	letter-spacing: .025rem;
-}
-
-header.large .button-default,
-header.small-with-button .button-default {
-	border-width: 3px;
-	background: #59a27c;
-	color: white;
-}
-
-header.large .button-default:hover,
-header.small-with-button .button-default:hover {
-	background: #488363;
-	border-color: #488363;
 }
 
 /*medium header - icon + title*/
@@ -395,7 +382,8 @@ img {
 button styling
 ------- */
 .button-default,
-.button-reset {
+.button-reset,
+.button-header {
 	font-size: .96rem;
 	font-weight: 600;
 	letter-spacing: 0.1rem;
@@ -423,6 +411,13 @@ button styling
 	border-color: #555;
 }
 
+.button-header {
+	border-width: 3px;
+	background: #59a27c;
+	color: white;
+	border-color: #59a27c;
+}
+
 /* when hovering on default button */
 .button-default:hover,
 .button-default:active,
@@ -437,6 +432,13 @@ button styling
 .button-reset:focus {
 	color:white;
 	background-color: #555555;
+}
+
+.button-header:hover,
+.button-header:active,
+.button-header:focus {
+	background: #488363;
+	border-color: #488363;
 }
 
 .button-edit {
