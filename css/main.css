@@ -79,8 +79,20 @@ header.large img.page-icon {
 	margin-top: 6rem;
 }
 
+header.large h1 {
+	text-transform: none;
+	font-weight: 400;
+	letter-spacing: .025rem;
+}
+
+header.large .button-default {
+	border-width: 3px;
+	background: #59a27c;
+	color: white;
+}
+
 /*medium header - icon + title*/
-header.medium{
+header.medium {
 	height: 30rem;
 }
 
@@ -193,6 +205,7 @@ nav a {
 	letter-spacing: 0.1rem;
 	padding-bottom: 0.2rem;
 	margin-left: 3rem;
+	text-transform: uppercase;
 	-webkit-transition: all 0.1s;
 	-moz-transition: all 0.1s;
 	-ms-transition: all 0.1s;
@@ -269,7 +282,7 @@ p.submitted-by a {
 }
 
 em {
-	color: #FF0800;
+	color: #59a27c;
 	font-style: normal;
 	font-weight: 600;
 }
@@ -280,7 +293,7 @@ a {
 
 /* in-text links */
 .text-link {
-	color: #FF0800;
+	color: #59a27c;
 }
 
 /* when you hover on in-text links */
@@ -375,17 +388,16 @@ img {
 button styling
 ------- */
 .button-default,
-.button-reset,
-.button-banner {
+.button-reset {
 	font-size: .96rem;
 	font-weight: 600;
 	letter-spacing: 0.1rem;
-	padding: .9rem 3.5rem;
+	padding: .9rem 3rem;
 	background-color: transparent;
 	border: solid 2px;
 	display: inline-block;
 	text-align: center;
-	text-transform: lowercase;
+	text-transform: uppercase;
 	cursor: pointer;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -394,10 +406,9 @@ button styling
 	transition: all 0.3s;
 }
 
-.button-default,
-.button-banner {
-	color: #FF0800;
-	border-color: #FF0800;
+.button-default {
+	color: #59a27c;
+	border-color: #59a27c;
 }
 
 .button-reset {
@@ -408,12 +419,9 @@ button styling
 /* when hovering on default button */
 .button-default:hover,
 .button-default:active,
-.button-default:focus,
-.button-banner:hover,
-.button-banner:active,
-.button-banner:focus {
+.button-default:focus {
 	color:white;
-	background-color: #FF0800;
+	background-color: #59a27c;
 }
 
 /* when hovering on reset button */
