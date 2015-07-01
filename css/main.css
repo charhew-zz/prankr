@@ -85,10 +85,17 @@ header.large h1 {
 	letter-spacing: .025rem;
 }
 
-header.large .button-default {
+header.large .button-default,
+header.small-with-button .button-default {
 	border-width: 3px;
 	background: #59a27c;
 	color: white;
+}
+
+header.large .button-default:hover,
+header.small-with-button .button-default:hover {
+	background: #488363;
+	border-color: #488363;
 }
 
 /*medium header - icon + title*/
@@ -587,6 +594,11 @@ input[type="checkbox"] {
 /*stops expiry dd from stacking*/
 #order-form-three #expiry .col-6of12 {
 	width: 50%;
+}
+
+/* more spacing above order form three */
+#order-form-three {
+	margin-top: 3rem;
 }
 
 /*the slash between the expiry month and year*/
