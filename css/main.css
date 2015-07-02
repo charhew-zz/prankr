@@ -247,6 +247,14 @@ h2.no-bottom-margin {
 	margin-bottom: 0;
 }
 
+h2.product-step-header {
+	border-bottom: none;
+	text-align: left;
+	margin-bottom: 1rem;
+	letter-spacing: 0.05rem;
+	font-size: 1.5rem;
+}
+
 h4 {
 	font-weight: 700;
 	letter-spacing: 0.025rem;
@@ -293,7 +301,7 @@ a {
 .text-link:hover,
 .text-link:active,
 .text-link:focus {
-	border-bottom: solid 1.5px;
+	border-bottom: solid 2px;
 }
 
 /*used to make space between content and footer.
@@ -376,6 +384,8 @@ img {
     width: 100% !important;
     height: 100% !important;
 }
+
+
 
 /*----
 button styling
@@ -489,6 +499,15 @@ needs special margins*/
 	margin-bottom: 2rem;
 }
 
+#product-diagram-and-description {
+	margin-bottom: 7rem;
+}
+
+/*for the last product diagram that doesn't need a margin*/
+#product-diagram-and-description-wo-margin {
+	margin-bottom: 0;
+}
+
 /*bios on the who we are page*/
 .bios {
 	text-align: center;
@@ -540,6 +559,9 @@ needs special margins*/
 	font-size: 2rem;
 }
 
+article.product-diagrams {
+	margin-bottom: 3rem;
+}
 /*comment and share counter under each blog post*/
 section.blog-comment-counter, .review-by {
 	font-family: "Source Sans Pro";
