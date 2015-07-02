@@ -276,7 +276,7 @@ p.submitted-by a {
 }
 
 em {
-	color: #30D3BA;
+	color: #23C4AE;
 	font-style: normal;
 	font-weight: 600;
 }
@@ -287,7 +287,7 @@ a {
 
 /* in-text links */
 .text-link {
-	color: #26a894;
+	color: #1fb09c;
 }
 
 /* when you hover on in-text links */
@@ -402,8 +402,8 @@ button styling
 }
 
 .button-default {
-	color: #30D3BA;
-	border-color: #30D3BA;
+	color: #23C4AE;
+	border-color: #23C4AE;
 }
 
 .button-reset {
@@ -413,9 +413,9 @@ button styling
 
 .button-header {
 	border-width: 3px;
-	background: #30D3BA;
+	background: #23C4AE;
 	color: white;
-	border-color: #30D3BA;
+	border-color: #23C4AE;
 }
 
 /* when hovering on default button */
@@ -423,7 +423,7 @@ button styling
 .button-default:active,
 .button-default:focus {
 	color:white;
-	background-color: #30D3BA;
+	background-color: #23C4AE;
 }
 
 /* when hovering on reset button */
@@ -437,8 +437,8 @@ button styling
 .button-header:hover,
 .button-header:active,
 .button-header:focus {
-	background: #26a894;
-	border-color: #26a894;
+	background: #1c9c8b;
+	border-color: #1c9c8b;
 }
 
 .button-edit {
@@ -640,7 +640,7 @@ input[type="checkbox"] {
 		float: left;
 		margin-left: 2rem;
 		margin-top: .2rem;
-		height: 1.8rem;
+		height: 2rem;
 		width: auto;
 	}
 
