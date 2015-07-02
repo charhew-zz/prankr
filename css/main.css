@@ -276,9 +276,7 @@ p.submitted-by a {
 }
 
 em {
-	color: #23C4AE;
 	font-style: normal;
-	font-weight: 600;
 }
 
 a {
@@ -287,7 +285,8 @@ a {
 
 /* in-text links */
 .text-link {
-	color: #1fb09c;
+	color: #23C4AE;
+	font-weight: 400;
 }
 
 /* when you hover on in-text links */
