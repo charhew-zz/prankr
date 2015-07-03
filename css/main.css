@@ -13,7 +13,14 @@
 
 #splash-page {
 	background: url("../img/bg-banner.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 	text-align: center;
+	height: 100%;
 }
 
 #splash-page img.page-icon {
