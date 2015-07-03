@@ -702,6 +702,13 @@ input[type="checkbox"] {
 		background: #333;
 	}
 
+	nav a.logo-link:hover,
+	nav a.logo-link:active,
+	nav a.logo-link:focus {
+		border-bottom: none;
+		background: none;
+	}
+
 	.nav-grid,
 	.nav-grid [class*='col-'] {
 		padding: 0;
